@@ -1,0 +1,66 @@
+header h1{
+
+    font-family: 'Pacifico', cursive; /* Una fuente manuscrita y divertida */
+    color: #FF6384; /* Rosa fuerte */
+    background: transparent;
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px #00000033; /* Sombra para hacer que el título resalte */
+    font-size: 59px;
+    margin-top: 10px;
+    }
+
+
+    body{
+        background: white;
+
+    }
+
+
+    .textq {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        font-size: large;
+        
+    }
+    
+    .imgtrabajador {
+        max-width: 35%; /* Ajusta este valor según el tamaño deseado */
+        height: auto;
+        border-radius: 10px; /* Opcional: para esquinas redondeadas */
+    }
+
+    .btnback button{
+
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ff6f61; /* Color cálido para el fondo del botón */
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s, transform 0.3s, opacity 0.3s;
+
+  
+
+    }
+
+    .btnback button:active {
+        background-color: #ff3b30; /* Color de fondo más oscuro al hacer clic */
+        transform: scale(0.98); /* Efecto de reducción al hacer clic */
+        opacity: 0.8; /* Transición de opacidad */
+        text-align: center;
+    }
+    
+    /* Estilo del botón después de hacer clic */
+    .btnback button.clicked {
+        background-color: #ff3b30; /* Color de fondo durante la transición */
+        opacity: 0.8;
+        transform: scale(0.98);
+    }

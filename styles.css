@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+/*INICIA CLASE DE HEADER: "BIENVENIDOS A FROZEN CAVE" */
+body{
+    
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+      
+}
+
+
+header{
+
+    font-family: 'Pacifico', cursive; /* Una fuente manuscrita y divertida */
+    color: #FF6384; /* Rosa fuerte */
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    }
+
+    
+
+    
+/*FINALIZA CLASE DE HEADER: "BIENVENIDOS A FROZEN CAVE" */
+
+.eslogan{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    animation: moveText 5s linear infinite;
+    color: purple
+}
+
+/* Animacion para el texto del eslogan*/
+@keyframes moveText {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100px;
+    }
+}
+
+
+
+/*CONTENEDOR DE BOTONES */
+.cbtns {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente (si hay más espacio vertical) */
+    gap: 20px; /* Espacio entre los botones */
+    margin: 20px 0; /* Márgenes superior e inferior */
+    background-color: beige;
+    border-radius: 10px;
+    
+}
+
+.cbtns a button {
+    padding: 10px 20px;
+    background-color: pink; /* Color del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Efecto al pasar el ratón */
+}
+
+.cbtns a button:hover {
+    background-color: red; /* Cambio de color al pasar el ratón */
+}
+
+
+    
+  /*CLASE DEL BOTON PARA IR A LOS HELADOS GENERALES*/
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61; /* Color cálido para el fondo del botón */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s, opacity 0.3s; /* Transiciones suaves */
+}
+
+/* Efecto de clic */
+button:active {
+    background-color: #ff3b30; /* Color de fondo más oscuro al hacer clic */
+    transform: scale(0.98); /* Efecto de reducción al hacer clic */
+    opacity: 0.8; /* Transición de opacidad */
+    text-align: center;
+}
+
+/* Estilo del botón después de hacer clic */
+.button.clicked {
+    background-color: #ff3b30; /* Color de fondo durante la transición */
+    opacity: 0.8;
+    transform: scale(0.98);
+}
+
+
+button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61; /* Color cálido para el fondo del botón */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: right;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s, opacity 0.3s; /* Transiciones suaves */
+}
+
+/* Efecto de clic */
+button2:active {
+    background-color: #ff3b30; /* Color de fondo más oscuro al hacer clic */
+    transform: scale(0.98); /* Efecto de reducción al hacer clic */
+    opacity: 0.8; /* Transición de opacidad */
+    text-align: right;
+}
+
+/* Estilo del botón después de hacer clic */
+.button2.clicked {
+    background-color: #ff3b30; /* Color de fondo durante la transición */
+    opacity: 0.8;
+    transform: scale(0.98);
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frozen Cave-Flavors</title>
+    <link rel="stylesheet" href="hestilos.css">
+</head>
+<header> These are all our ice creams!</header>
+<body>
+
+    <div class="lista">
+        <ul>
+            <li>Chocolate Ice Cream</li> 
+            <li>Vanilla Ice Cream</li>
+            <li>Strawberry Ice Cream</li>
+            <li>Lemon Ice Cream</li>
+            <li>Chocolate Ice Cream</li>
+        </ul>
+    </div>
+
+    <div class="lista2">
+        <ul> 
+            <li>Cookies and cream Ice cream</li> 
+            <li>Mango Ice Cream</li>
+            <li>Dule de leche Ice Cream</li>
+            <li>Mint with Chocolate Ice cream</li>
+            <li>Yogurth Ice Cream</li>   
+        </ul>
+    </div>
+
+
+
+    <div class="slide">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+            <div class="slide-item">
+                <img src='imgh/chocolate.jpg' alt="Imagen 1">
+            </div>
+
+            <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src='imgh/limon.jpg' alt="Imagen 2">
+            </div>
+
+            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src='imgh/fresa.jpg' alt="Imagen 3">
+            </div>
+
+            <!-- Controles de navegación -->
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+
+            <!-- Indicadores -->
+            <ol class="slide-indicador">
+                <li><label for="slide-1" class="slide-circulo">•</label></li>
+                <li><label for="slide-2" class="slide-circulo">•</label></li>
+                <li><label for="slide-3" class="slide-circulo">•</label></li>
+
+            </ol>
+        </div>
+    </div>
+
+<div class="regresar">
+    <a href="index.html"><button>Back to Main Page!</button></a>
+</div>
+
+
+</body>
+</html>
